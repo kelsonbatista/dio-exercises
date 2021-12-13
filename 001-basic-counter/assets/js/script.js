@@ -10,7 +10,7 @@ function sum() {
   if (n1 > 9) btnSum.disabled = true;
   btnSub.disabled = false;
 }
-
+// sum
 btnSum.addEventListener('click', sum);
 
 function sub() {
