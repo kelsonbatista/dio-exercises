@@ -1,0 +1,13 @@
+#number {
+  width: 100px;
+  padding: 0 20px;
+  font-size: 3em;
+}
+
+#sum, #sub {
+  width: 50px;
+  padding: 0 10px;
+  font-size: 3em;
+  user-select: none;
+  cursor: pointer;
+}
