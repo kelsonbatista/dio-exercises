@@ -1,0 +1,26 @@
+body {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#myform {
+  display: flex;
+  justify-content: center;
+}
+
+#mytext, #btnCheck {
+  font-size: 1em;
+}
+
+#mainblock {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+#answerGroup {
+  margin: 20px 0;
+}
