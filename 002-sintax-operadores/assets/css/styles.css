@@ -1,0 +1,16 @@
+body {
+  font-size: 2em;
+}
+
+#answerGroup {
+  margin: 10px 0;
+}
+
+#n1, #n2 {
+  width: 50px;
+  font-size: 1em;
+}
+
+#btnCheck {
+  font-size: 1em;
+}
