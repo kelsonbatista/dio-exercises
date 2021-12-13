@@ -5,9 +5,9 @@ let ans = document.querySelector('#answer');
 
 function checkNumber(a, b) {
   const sum = (Number(a) + Number(b));
-  let msg = '';
-  if (a == b) msg = `Os números ${a} e ${b} são iguais. Sua soma é ${sum}, `;
-  else msg = `Os números ${a} e ${b} não são iguais. Sua soma é ${sum}, `;
+  let msg = 'Os números ${a} e ${b} ';
+  if (a == b) msg = `são iguais. Sua soma é ${sum}, `;
+  else msg = `não são iguais. Sua soma é ${sum}, `;
 
   if (sum > 10) msg += 'que é maior que 10 e ';
   else msg += 'que é menor que 10 e ';
