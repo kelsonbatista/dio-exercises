@@ -18,8 +18,15 @@ const alunos = [
 	},
 ];
 
-function retornaAprovados(students) {
-  return students.filter((aluno) => aluno.nota >= 6).map((n) => n.nome);
+function retornaAprovados(students, average) {
+  // return students.filter((aluno) => aluno.nota >= 6).map((n) => n.nome);
+	let approved = [];
+
+	for (let i in students) {
+		const { nome, nota } = students[i];
+		if (nota >= average) approved.push(nome);
+	}
+	return approved;
 }
 
-console.log(retornaAprovados(alunos));
+console.log(retornaAprovados(alunos, 6));
