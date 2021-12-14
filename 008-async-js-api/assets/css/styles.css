@@ -1,0 +1,35 @@
+.group {
+  
+}
+
+.cat {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2em;
+  margin: 40px 0;
+  align-self: center;
+}
+
+.btnRandom {
+  margin: 40px 0;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 800;
+  background-color: orange;
+  border: 1px solid darkorange;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.image {
+  width: 30%;
+  border-radius: 30px;
+    align-self: center;
+}
